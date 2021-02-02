@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "process-list": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
