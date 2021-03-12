@@ -43,6 +43,5 @@ const keepAlive = require('./server');
 keepAlive();
 
 console.log('Logging in...');
-const tokenReader = require('./readtoken');
-var token = tokenReader.getToken();
-client.login(tokenReader.getToken());
+
+client.login('YourTokenHere');
